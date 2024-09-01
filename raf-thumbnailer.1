@@ -1,0 +1,46 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2024 Bram Stolk <b.stolk@gmail.com>,
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH GFXI 1 "September  1 2024"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+raf-thumbnailer \- Extract the thumbnail from a RAF raw image file.
+.SH SYNOPSIS
+.B raf-thumbnailer IMAGE.RAF IMAGE.PNG
+.SH DESCRIPTION
+This manual page documents the
+.B raf-thumbnailer
+command.
+.PP
+\fBraf-thumbnailer\fP is a program that extracts the thumbnail from the jpeg inbedded into a RAF raw image file.
+.br
+.sp 1
+It can either write png or jfif(jpeg) output.
+.br
+.SH OPTIONS
+None
+.sp 1
+.SH ENVIRONMENT
+.sp 1
+\fBRAF_VERBOSE\fP
+.br
+Write verbose output on stderr.
+.sp 1
+.SH SEE ALSO
+.br
+nautilus(1)
+

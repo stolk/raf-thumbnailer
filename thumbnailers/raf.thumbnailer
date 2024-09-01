@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=raf-thumbnailer
+Exec=raf-thumbnailer %i %o
+MimeType=image/x-raf;image/x-fuji-raf;

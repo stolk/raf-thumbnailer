@@ -1,0 +1,17 @@
+Source: raf-thumbnailer
+Section: contrib/utils
+Priority: optional
+Maintainer: Bram Stolk <b.stolk@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libdrm-dev,
+ pkgconf
+Standards-Version: 4.6.1
+Homepage: https://github.com/stolk/raf-thumbnailer
+
+Package: raf-thumbnailer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Extracts thumbnails from RAF raw image files.
+ Extracts a png or jpeg thumbnail from the jpeg embedded in raf raw image file.
