@@ -4,7 +4,7 @@ A fast thumbnailer for RAF image files containing raw images.
 
 ## Description
 
-Creates thumbails from RAF files.
+Creates thumbnails from RAF files.
 
 It is very fast, because it will extract the existing thumbnail that is embedded into the JPEG that is embedded into the RAF.
 I see it generate a PNG thumbnail from a 50 MegaPixel raw photo in 10 miliseconds or so.
@@ -31,7 +31,7 @@ The raf-thumbnailer program depends on STB's image and write image libraries, bo
 
 ## Author
 
-[raf-thumbailer](github.com:stolk/raf-thumbnailer.git) is by Bram Stolk (b.stolk@gmail.com)
+[raf-thumbnailer](github.com:stolk/raf-thumbnailer.git) is by Bram Stolk (b.stolk@gmail.com)
 
 ## License
 
