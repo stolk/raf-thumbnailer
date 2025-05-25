@@ -43,10 +43,10 @@ uninstall:
 
 tarball:
 	rm -f ../raf-thumbnailer_*
-	tar cvzf ../raf-thumbnailer_1.0.orig.tar.gz $(DISTFILES)
+	tar cvzf ../raf-thumbnailer_1.1.orig.tar.gz $(DISTFILES)
 
 packageupload:
 	debuild -S
-	debsign ../raf-thumbnailer_1.0-1_source.changes
-	dput ppa:b-stolk/ppa ../raf-thumbnailer_1.0-1_source.changes
+	debsign ../raf-thumbnailer_1.1-1_source.changes
+	dput --force ppa:b-stolk/ppa ../raf-thumbnailer_1.1-1_source.changes
 

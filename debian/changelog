@@ -1,3 +1,9 @@
+raf-thumbnailer (1.1-1) plucky; urgency=medium
+
+  * Build for plucky puffin.
+
+ -- Bram Stolk <b.stolk@gmail.com>  Sun, 25 May 2025 13:41:07 -0700
+
 raf-thumbnailer (1.0-1) noble; urgency=medium
 
   * Initial version.
